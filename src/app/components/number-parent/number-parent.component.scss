@@ -50,4 +50,8 @@ color: #3E97FF;
 .bgl i{
 font-size: 6.82px;
 color: #1C1C28;
+transition: all 0.5s;
+}
+.bgl i:hover {
+    color: #FF4B55;
 }

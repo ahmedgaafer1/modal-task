@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { NumberHeaderComponent } from "../number-header/number-header.component";
+import { TableComponent } from "../table/table.component";
 
 @Component({
   selector: 'app-number-parent',
   standalone: true,
-  imports: [NumberHeaderComponent],
+  imports: [NumberHeaderComponent, TableComponent],
   templateUrl: './number-parent.component.html',
   styleUrl: './number-parent.component.scss'
 })
